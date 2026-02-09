@@ -191,9 +191,4 @@ st.write(
     "- **This is why experiments need sufficient traffic.** Otherwise results bounce around."
 )
 
-# -----------------------------
-# Reset button (fun + helps people feel randomness)
-# -----------------------------
-st.divider()
-if st.button("🔁 Run a new experiment (same settings)"):
-    st.experimental_rerun()
+
